@@ -12,8 +12,7 @@ namespace Unit03.Game
     /// </summary>
     public class Seeker
     {
-        Random rnd = new Random();
-        int _location = rnd.Next(1001);
+        int _location = 0;
 
         /// <summary>
         /// Constructs a new instance of Seeker.
