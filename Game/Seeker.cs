@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 
 
 namespace Unit03.Game
@@ -12,7 +11,7 @@ namespace Unit03.Game
     /// </summary>
     public class Seeker
     {
-        int _location = 0;
+        private int _location = 0;
 
         /// <summary>
         /// Constructs a new instance of Seeker.
